@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+.map{
+    width:450px;
+    height:450px;
+    border: 1px solid black;
+    background: #e2dede;
+    position: relative;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player{
+    width: 10px;
+    height: 10px;
+    background: black;
+    position: absolute;
+    left:0;
+    top:0;
+}
